@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <title>TechStore - Productos</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <main class="app">
+
+        <!-- Pantalla de productos -->
+        <section id="products" class="screen active">
+
+            <header class="top-bar">
+                <h1>Productos</h1>
+            </header>
+
+            <div class="content">
+
+                <h2>Tecnología Premium</h2>
+
+                <div class="product-card">
+                    <div class="product-image"></div>
+
+                    <div class="product-info">
+                        <img src="iphone.png" class="fondo-02" alt="foto de fondo">
+                        <h3>iPhone 17 Pro</h3>
+                        <p>El nuevo iPhone</p>
+                        <strong>$1.099.990</strong>
+                    </div>
+
+                    <button onclick="addToCart('iPhone 17 Pro', 1099990)">Agregar al carrito</button>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Barra de navegación inferior actualizada con enlaces -->
+        <nav class="bottom-nav">
+            <a href="index.html">
+                <span>⌂</span>
+                Inicio
+            </a>
+
+            <a href="productos.html">
+                <span>⌕</span>
+                Buscar
+            </a>
+
+            <a href="cart.html">
+                <span>🛒</span>
+                Carrito
+            </a>
+
+            <a href="#">
+                <span>♙</span>
+                Perfil
+            </a>
+        </nav>
+
+    </main>
+
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
